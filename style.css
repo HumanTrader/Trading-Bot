@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, section, footer {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #2c3e50;
+}
+#overall-recommendation {
+    text-align: center;
+    padding: 30px;
+    background-color: #eaf7f7;
+    border: 1px solid #cceeee;
+}
+#recommendation-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: green; /* Default to green, will change based on recommendation */
+}
+.factor-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
